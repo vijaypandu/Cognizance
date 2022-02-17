@@ -1,0 +1,17 @@
+Function Main
+    Declare Integer p, sum, remainder
+    
+    Assign sum = 0
+    Output "ENTER THE NUMBER"
+    Input p
+    While p>0
+        Assign remainder = p%10
+        Assign sum = sum+remainder
+        Assign p = p/10
+    End
+    If sum%3=0
+        Output TRUE
+    False:
+        Output FALSE
+    End
+End

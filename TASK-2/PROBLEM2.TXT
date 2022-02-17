@@ -1,0 +1,15 @@
+Function Main
+    Declare Integer P, Q, R, S, num
+    
+    Input num
+    Assign P = 0
+    Assign Q = 0
+    Assign R = 1
+    While P<num
+        Assign P = P+1
+        Assign S = Q+R
+        Assign Q = R
+        Assign R = S
+    End
+    Output Q
+End
